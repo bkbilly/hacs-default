@@ -5,7 +5,7 @@ on:
     - cron:  '0 12 * * *'
       
   push:
-    branches: [ repository ]
+    branches: [ master ]
 
   workflow_dispatch:
   
