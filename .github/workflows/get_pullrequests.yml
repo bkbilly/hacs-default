@@ -1,0 +1,33 @@
+name: Get Pull Requests
+
+on:
+  schedule:
+    - cron:  '0 12 * * *'
+      
+  push:
+    branches: [ repository ]
+
+  workflow_dispatch:
+  
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@3
+      - name: install
+        run: |
+          sudo apt update
+          sudo apt install python3 python3-requests
+          
+      - name: run
+        run: |
+          python get_pullrequests.py
+        
+      - name: Commit changes
+        run: |
+          git config --global user.name 'bkbilly'
+          git config --global user.email 'bkbilly@hotmail.com'
+          git commit -am "Automated push"
+          git push
