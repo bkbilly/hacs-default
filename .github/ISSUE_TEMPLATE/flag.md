@@ -3,7 +3,7 @@ name: flag
 about: Flagging of content shown
 title: ''
 labels: flag
-assignees: ludeeus
+assignees: bkbilly
 ---
 
 <!-- Learn how to submit an issue here https://hacs.xyz/docs/issues -->
