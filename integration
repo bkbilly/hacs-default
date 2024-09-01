@@ -418,6 +418,7 @@
   "FaserF/ha-foodsharing",
   "faserf/ha-rewe",
   "FernandoZueet/ha_message_repository",
+  "FernandoZueet/messages_store",
   "filipvh/hass-nhc2",
   "fineemb/Colorfulclouds-weather",
   "fineemb/Smartmi-smart-heater",
