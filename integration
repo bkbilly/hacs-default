@@ -1044,6 +1044,7 @@
   "rdehuyss/homeassistant-custom_components-denkovi",
   "redlukas/emu_mbus_center",
   "RedPaladin/i_regul_heatpump",
+  "redpomodoro/fronius_modbus",
   "Refoss/refoss-homeassistant",
   "regulad/hass-lacrosseview",
   "remialban/ipx800v3",
