@@ -401,6 +401,7 @@
   "eifinger/hass-here-weather",
   "eifinger/hass-weenect",
   "eifinger/open_route_service",
+  "einFreak/ha-regensburg-transport",
   "einToast/openai_stt_ha",
   "ekutner/home-connect-hass",
   "elad-bar/ha-blueiris",
